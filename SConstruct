@@ -4,7 +4,7 @@ from pathlib import Path
 import os
 
 # TODO: Do not copy environment after godot-cpp/test is updated <https://github.com/godotengine/godot-cpp/blob/master/test/SConstruct>.
-env = SConscript("godot-cpp/SConstruct")
+env = SConscript("blazium-cpp/SConstruct")
 
 # Add source files.
 env.Append(CPPPATH=["src/"])
